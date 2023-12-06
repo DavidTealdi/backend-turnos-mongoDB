@@ -6,7 +6,7 @@ const getUsersByDayViernes = async () => {
     
     const response = await model.find({
     
-        dia: 'Jueves' // Aqui
+        dia: 'Viernes' // Aqui
     
     }).sort({hora: 1}); // Ordena los horarios de forma ascendente
 
@@ -18,7 +18,7 @@ const getUsersByDaySabado = async () => {
     
     const response = await model.find({
        
-        dia: 'Viernes' // Aqui
+        dia: 'Sabado' // Aqui
     
     }).sort({hora: 1}); // Ordena los horarios de forma ascendente
 

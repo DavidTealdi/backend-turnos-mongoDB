@@ -6,7 +6,7 @@ const getHora = async () => {
     
     const horas = await model.find({
         
-        dia: ["Jueves", "Viernes"] // Aqui
+        dia: ["Viernes", "Sabado"] // Aqui
     
     })
     
